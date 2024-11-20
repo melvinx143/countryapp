@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries</title>
+    <link rel="stylesheet" href="./countries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="totalcontent">
+      <div class="searchcontent">
+        <input type="text" placeholder="Search a Country" class="searchvalue" />
+        <button class="btn" onclick="countries()">Search</button>
+      </div>
+      <div class="innersection">
+        <img
+          src="./img1.jpg"
+          class="countryflag"
+          height="200px"
+          width="500px"
+          alt="flags"
+        />
+        <h1 class="invalidchoice" style="color: #ff0000"></h1>
+        <div class="contentinside">
+          <div>Country:<span class="countryname"></span></div>
+          <div>Capital:<span class="capital"></span></div>
+          <div>Languages:<span class="languages"></span></div>
+          <div>Continent:<span class="continent"></span></div>
+          <div>Currency:<span class="currency"></span></div>
+          <div>Neighbours:<span class="neighbours"></span></div>
+          <div>Areas(km2):<span class="areas"></span></div>
+          <div>Population:<span class="population"></span></div>
+          <div>Subregion:<span class="subregion"></span></div>
+        </div>
+      </div>
+    </div>
+    <script src="./countries.js"></script>
+  </body>
+</html>
